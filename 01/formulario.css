@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+}
+
+body, html{
+    margin: 0;
+    padding: 0;
+}
+
+/* OBJETOS */
+
+#forma_prueba{
+    background-color: #333333;
+    box-shadow: 0px 7px 16px rgb(31, 31, 31, 0.38);
+    border: none;
+    border-radius: 16px;
+    margin: 0 11px;
+    max-width: 420px;
+    min-height: 50vh;
+    min-width: 260px;
+    padding: 21px;
+    width: 83%;
+    position: relative;
+}
+
+#forma_prueba input{
+    background-color: #aaa;
+    border: none;
+    border-radius: 13px;
+    color: #EEE;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.3rem;
+    margin: 0 auto 24px auto;
+    padding: 13px 17px;
+    width: 100%;
+}
+    #forma_prueba input:focus{
+        background-color: #fff;
+        color: orangered;
+        transform: scale(1.1);
+    }
+
+#forma_prueba button {
+    background-color: yellowgreen;
+    box-shadow: 0px 7px 16px rgb(0, 0, 0, 0.7);
+    border: none;
+    border-radius: 2em;
+    color: darkgreen;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 1.7em;
+    font-weight: bold;
+    margin: 32px 0 0 0;
+    padding: 16px 21px;
+    position: absolute;
+    right: 16px;
+    bottom: -32px;
+}
+
+/* CLASES */
+
+.contenedor{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}

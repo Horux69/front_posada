@@ -1,0 +1,62 @@
+/* Objetos */
+
+#contenedor_02{
+    background-color: rgb(182, 182, 182);
+    display: flex;
+    justify-content: space-between;
+}
+
+#contenedor_02 #hijo_x{
+    height: 300px;
+}
+
+#contenedor_02 #hijo_z{
+    height: 380px;
+}
+
+#contenedor_03{
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 3 250px;
+}
+
+#contenedor_03 #hijo_a3{
+    grid-column: 1;
+    grid-row: 3;
+}
+
+#contenedor_03 #hijo_b3{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+#contenedor_03 #hijo_c3{
+    grid-column: 3;
+    grid-row: 1;
+}
+
+
+/* Clases */
+.caja_hijo{
+    height: 200px;
+    width: 200px;
+    background-color: orangered;
+    box-shadow: 4px 4px 12px rgb(0, 0, 0, 0.5);
+    display: inline-block;
+    margin: 0 1%;
+}
+
+.caja_hijo_b{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    box-shadow: 4px 4px 12px rgb(0, 0, 0, 0.5);
+}
+
+.caja_hijo_c{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    box-shadow: 4px 4px 12px rgb(0, 0, 0, 0.5);
+}
