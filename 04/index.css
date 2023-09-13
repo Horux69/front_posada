@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    transform: all 0.3s ease-in-out;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+main#inicio {
+    background-color: transparent;
+    margin: 0;
+    min-height: 100vh;
+    padding: 0;
+    position: relative;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+/* CLASES */
+
+.caja {
+    border-radius: 38px;
+    padding: 36px;
+    height: 320px;
+    width: 320px;
+}
+
+.campo {
+    border: none;
+    background-color: transparent;
+    border-radius: 32px;
+    margin: 16px 0;
+    font-size: 26px;
+    padding: 21px;
+    width: 83%;
+}
+
+.claro, .oscuro {
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    display: grid;
+    place-items: center;
+}
+
+.claro, .clara {
+    background-color: #eee;
+}
+
+.clara {
+    box-shadow: 9px 9px 16px #bbb,
+                -9px -9px 16px #fff;
+}
+
+    .clara .campo {
+        box-shadow: inset 3px 3px 9px #bbb,
+                inset -3px -3px 9px #fff;
+        color: #777;
+    }
+
+.oscuro, .oscura {
+    background-color: #222;
+}
+
+    .oscura .campo {
+        box-shadow: inset 3px 3px 9px  #000,
+                inset -3px -3px 9px rgba(51, 51, 51, 0.5);
+        color: #666;
+    }
+.oscura {
+    box-shadow: 9px 9px 16px #000,
+                -9px -9px 16px rgba(51, 51, 51, 0.5);
+}
